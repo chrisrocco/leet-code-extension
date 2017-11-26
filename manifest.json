@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "LeetCode Submissions Helper",
-  "description": "This extensions replaces Leetcode's useless interface for view submissions with a powerful one",
+  "description": "Replaces Leetcode's default 'My Submissions' table with a more powerful one",
   "version": "1.0",
   "browser_action": {
     "default_icon": "assets/img/leetcode.png",
