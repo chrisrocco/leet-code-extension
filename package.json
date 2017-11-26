@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Rocco",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "datatables.net": "^1.10.16",
+    "datatables.net-bs": "^1.10.16",
+    "jquery": "^3.2.1"
+  }
 }
