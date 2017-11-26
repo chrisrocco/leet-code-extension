@@ -1,0 +1,11 @@
+{
+  "name": "leet_code_helper",
+  "version": "1.0.0",
+  "description": "Improves Leetcode's submissions page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Rocco",
+  "license": "ISC"
+}

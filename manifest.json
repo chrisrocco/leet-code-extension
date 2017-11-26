@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "LeetCode Submissions Helper",
+  "description": "This extensions replaces Leetcode's useless interface for view submissions with a powerful one",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/img/leetcode.png",
+    "default_popup": "popup.html",
+    "default_title": "Click Here!"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "cookies",
+    "https://leetcode.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "https://leetcode.com/submissions/*" ],
+      "js": [
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/datatables.net/js/jquery.dataTables.js",
+        "node_modules/datatables.net-bs/js/dataTables.bootstrap.js",
+        "contentScript.js"
+      ],
+      "css": [
+        "node_modules/datatables.net-bs/css/dataTables.bootstrap.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
